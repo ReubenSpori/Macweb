@@ -1,24 +1,16 @@
 body{
-
 	font-family: 'Avenir', Helvetica, sans-serif;
 	background:#f8f8f8;
 	
 }
 
-
 .text{
-	
 	font-size: 400%;
 	margin-left: auto;
 	margin-right: auto;
-
 	margin-top: 350px;
-
-	
 	text-align: center;
-
 	color: black;
-
 }
 
 p:hover{
