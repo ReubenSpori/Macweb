@@ -8,20 +8,27 @@ body{
 
 .text{
 	
-	font-size: 450%;
+	font-size: 400%;
 	margin-left: auto;
 	margin-right: auto;
 
+	margin-top: 350px;
 
-	margin-top: 350px;	
 	
 	text-align: center;
 
 	color: black;
-
 
 }
 
 p:hover{
 	color: #646464;
 }
+
+#fadeout {
+  opacity: 1;
+  transition: 1s opacity;
+  text-align: center;
+  font-size:32px;
+}
+
