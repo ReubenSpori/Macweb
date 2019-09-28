@@ -8,18 +8,21 @@
 
 <body>
 
+<div id = "fadeout">
 <div class="text">
+ <p onclick="fadeout()">Welcome</p>
 
-
-
-<p onclick="myFunction(this, '#f8f8f8')">Welcome</p>
+</div>
 </div>
 
-
 <script>
-function myFunction(elmnt,clr) {
-  elmnt.style.color = clr;
+
+
+
+function fadeout() {
+  document.getElementById('fadeout').style.opacity = '0';
 }
+
 </script>
 
 </body>
